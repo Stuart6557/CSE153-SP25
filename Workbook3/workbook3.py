@@ -1,5 +1,7 @@
-# Note: this was origianlly an ipynb but the file size was too large
-# to upload to GitHub so that's why I'm saving it as a .py file
+"""
+Note: this was origianlly an ipynb but the file size was too large
+to upload to GitHub so that's why I'm saving it as a .py file
+"""
 
 # -*- coding: utf-8 -*-
 """workbook3.ipynb
