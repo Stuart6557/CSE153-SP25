@@ -1,0 +1,11 @@
+Task 1
+I extracted a lot of features (note density, volume, tempo, register, etc) from each midi file then fed the feature vector into an AutoGluon model to train it and make predictions.
+
+Task 2
+I extracted a feature vector from both files, then for each pair combined each file's feature vector by taking either the absolute value or difference between the two. I took the combined features and fed it into an XGBoost model to train it and make predictions.
+
+
+Task 3
+I used a pretrained Audio Spectrogram Transformer (AST) from Hugging Face then fine tuned it with the dataset.
+https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593
+I also used data augmentation, adding an additional feature to around a quarter of the files by shifting pitch, changing speed, or changing volume.
